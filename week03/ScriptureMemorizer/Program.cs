@@ -1,3 +1,6 @@
+// Exceed Requirement: Added functionality to hide 3 words per enter press instead of 1.
+
+
 using System;
 
 class Program
