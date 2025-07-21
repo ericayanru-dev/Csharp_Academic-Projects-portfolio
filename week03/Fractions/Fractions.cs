@@ -1,21 +1,21 @@
-public class Fractions
+public class Fraction
 {
     private int _top;
     private int _bottom;
 
-    public Fractions()
+    public Fraction()
     {
         _top = 1;
         _bottom = 1;
     }
 
-    public Fractions(int number)
+    public Fraction(int number)
     {
         _top = number;
         _bottom = 1;
     }
 
-    public Fractions(int top, int bottom)
+    public Fraction(int top, int bottom)
     {
         _top = top;
         _bottom = bottom;
@@ -46,7 +46,7 @@ public class Fractions
         Console.WriteLine($"{_top}/{_bottom}");
     }
 
-    public void GetFractionValue()
+    public void GetDecimalValue()
     {
         Console.WriteLine((double)_top / _bottom);
     }

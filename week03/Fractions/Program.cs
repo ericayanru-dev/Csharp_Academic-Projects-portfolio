@@ -6,25 +6,27 @@ class Program
     {
         Console.WriteLine("Hello World! This is the Fractions Project.");
 
-        Fractions fraction = new Fractions();
-        fraction.GetFractionString();
-        fraction.GetFractionValue();
+        Fraction f1 = new Fraction(); // 1/1
+        f1.GetFractionString();
+        f1.GetDecimalValue();
 
-        int top = 1;
-        int bottom = 3;
-        Fractions fraction1 = new Fractions(top);
-        fraction1.GetFractionString();
-        fraction1.GetFractionValue();
+        Fraction f2 = new Fraction(5); // 5/1
+        f2.GetFractionString();
+        f2.GetDecimalValue();
 
-        Fractions fraction2 = new Fractions(top, bottom);
-        fraction2.GetFractionString();
-        fraction2.GetFractionValue();
+        Fraction f3 = new Fraction(3, 4); // 3/4
+        f3.GetFractionString();
+        f3.GetDecimalValue();
 
-        Fractions fraction3 = new Fractions();
-        fraction3.SetTop(top);
-        fraction3.SetBottom(bottom);
-        fraction3.GetFractionString();
-        fraction3.GetFractionValue();
+        Fraction f4 = new Fraction(1, 3); // 1/3
+        f4.GetFractionString();
+        f4.GetDecimalValue();
+
+        // Testing getters and setters
+        f4.SetTop(2);
+        f4.SetBottom(5);
+        f4.GetFractionString(); // Should output 2/5
+        f4.GetDecimalValue(); // Should output 0.4
 
     }
 }
