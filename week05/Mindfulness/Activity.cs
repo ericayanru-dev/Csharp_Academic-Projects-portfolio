@@ -28,7 +28,7 @@ public class Activity
     public void DisplayEndingMessage()
     {
         Console.WriteLine("Well done!");
-        ShowSpinner(3);
+        ShowSpinner(11);
         Console.WriteLine("");
         Console.WriteLine($"You just completed a {_name}");
         ShowSpinner(3);
@@ -45,7 +45,9 @@ public class Activity
         {
             Console.Write(i);
             Thread.Sleep(1000);
-            Console.Write("\b \b");
+            Console.Write(new string('\b', i.ToString().Length));
+            Console.Write(new string(' ', i.ToString().Length));
+            Console.Write(new string('\b', i.ToString().Length));
             i--;
         }
     }
@@ -69,10 +71,12 @@ public class Activity
 
         while (DateTime.Now < endTime)
         {
-            string simble = animationStrings[i];
-            Console.Write(simble);
+            string symbol = animationStrings[i];
+            Console.Write($"{symbol}");
             Thread.Sleep(300);
-            Console.Write("\b \b");
+            Console.Write(new string('\b', symbol.ToString().Length));
+            Console.Write(new string(' ', symbol.ToString().Length));
+            Console.Write(new string('\b', symbol.ToString().Length));
             i++;
             if (i >= animationStrings.Count)
             {
