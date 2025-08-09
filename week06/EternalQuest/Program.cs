@@ -1,7 +1,7 @@
 using System;
 
 
-// EXTRA FEATURE: Streak System
+// Exceeds core requirements: Streak System
 // Tracks how many consecutive days the user completes at least one goal.
 // Encourages daily engagement and shows both current and longest streaks.
 // Saved & loaded alongside goals and score.
