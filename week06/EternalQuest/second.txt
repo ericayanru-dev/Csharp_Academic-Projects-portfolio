@@ -1,0 +1,27 @@
+{
+  "$type": "System.Collections.Generic.List`1[[Goal, EternalQuest]], System.Private.CoreLib",
+  "$values": [
+    {
+      "$type": "SimpleGoal, EternalQuest",
+      "_isCompleted": false,
+      "_shortName": "ertyu",
+      "_description": "sdfgh",
+      "_points": 10
+    },
+    {
+      "$type": "EternalGoal, EternalQuest",
+      "_shortName": "sdfg",
+      "_description": "sdfg",
+      "_points": 10
+    },
+    {
+      "$type": "ChecklistGoal, EternalQuest",
+      "_amountCompleted": 0,
+      "_target": 3,
+      "_bonus": 400,
+      "_shortName": "edfrtg",
+      "_description": "edfg",
+      "_points": 10
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "$type": "SaveData, EternalQuest",
+  "_goals": {
+    "$type": "System.Collections.Generic.List`1[[Goal, EternalQuest]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "SimpleGoal, EternalQuest",
+        "_isCompleted": true,
+        "_shortName": "fghjkl",
+        "_description": "sdfg",
+        "_points": 10
+      },
+      {
+        "$type": "EternalGoal, EternalQuest",
+        "_shortName": "dfg",
+        "_description": "edrfgt",
+        "_points": 10
+      },
+      {
+        "$type": "ChecklistGoal, EternalQuest",
+        "_amountCompleted": 3,
+        "_target": 3,
+        "_bonus": 100,
+        "_shortName": "fghjkl",
+        "_description": "dfghjk",
+        "_points": 10
+      }
+    ]
+  },
+  "_score": 150,
+  "Goals": {
+    "$type": "System.Collections.Generic.List`1[[Goal, EternalQuest]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "SimpleGoal, EternalQuest",
+        "_isCompleted": true,
+        "_shortName": "fghjkl",
+        "_description": "sdfg",
+        "_points": 10
+      },
+      {
+        "$type": "EternalGoal, EternalQuest",
+        "_shortName": "dfg",
+        "_description": "edrfgt",
+        "_points": 10
+      },
+      {
+        "$type": "ChecklistGoal, EternalQuest",
+        "_amountCompleted": 3,
+        "_target": 3,
+        "_bonus": 100,
+        "_shortName": "fghjkl",
+        "_description": "dfghjk",
+        "_points": 10
+      }
+    ]
+  },
+  "Score": 150
+}
