@@ -12,17 +12,23 @@ public class Video
         _length = length;
     }
 
+    /// Parses a string of comments (separated by ~) 
+    /// and adds them to the video.
+    /// Format: "Name:Comment~Name:Comment"
     public void GetComment(string text)
     {
         string[] comments = text.Split("~");
         foreach (string item in comments)
         {
             string[] attributes = item.Split(":");
-
-            _comments.Add(new Comment(attributes[0], attributes[1]));
+            if (attributes.Length == 2)
+            {
+                _comments.Add(new Comment(attributes[0], attributes[1]));
+            }
         }
     }
 
+     /// Displays video details and its comments.
     public void Display()
     {
         Console.WriteLine();

@@ -12,7 +12,7 @@ class Program
         // Add one of each shape
         Circle circle = new Circle(5);          // Radius = 5
         Rectangle rectangle = new Rectangle(4, 6); // Length = 4, Width = 6
-        Squares square = new Squares(3);        // Length = 3
+        Square square = new Square(3);        // Length = 3
 
         // Set colors (optional)
         circle.SetColor("Red");
@@ -28,8 +28,7 @@ class Program
         foreach (Shapes shape in shapes)
         {
             double area = shape.GetArea();
-            Console.WriteLine($"Area: {area:F2}");
+            Console.WriteLine($"Color: {shape.GetColor()}, Area: {area:F2}");
         }
-    
     }
 }

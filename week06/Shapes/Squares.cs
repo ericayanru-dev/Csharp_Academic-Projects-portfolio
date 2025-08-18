@@ -1,8 +1,8 @@
-public class Squares : Shapes
+public class Square : Shapes
 {
     private double _length;
 
-    public Squares(double length)
+    public Square(double length)
     {
         _length = length;
     }

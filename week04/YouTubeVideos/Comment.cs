@@ -9,6 +9,7 @@ public class Comment
         _text = text;
     }
 
+    /// Displays the comment with author name and text.
     public void Display()
     {
         Console.WriteLine($"Name: {_name}");

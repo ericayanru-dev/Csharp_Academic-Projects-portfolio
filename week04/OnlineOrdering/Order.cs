@@ -40,7 +40,7 @@ public class Order
 
     public void PackagingLabel()
     {
-        Console.WriteLine($"ITEM NAME       PRODUCT ID        QUANTITY     COST");
+        Console.WriteLine($"{"ITEM NAME",-15} {"PRODUCT ID",-12} {"QTY",-5} {"COST",-8}");
         foreach (Product item in _products)
         {
            Console.WriteLine($"{item.GetProductDetails()}"); 
